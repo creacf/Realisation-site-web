@@ -1,19 +1,25 @@
 body{
     font: 400 14px MuseoSansCyrl,sans-serif;
     font-size: 14px;
-    color: #5e647d;
+    color: #5e647d;/* color police*/
     min-width: 900px;
     margin: 0px;
 	background-image: url(file:///C:/Users/Creacf%2065/Desktop/grandma_recipes/Realisation-site-web/img/une%20drome.jpg); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll; /*fiver l'img de fond*/
-	}
+}
 
 .entete{
-	background-color : rgba(227,219,183,0.80);
+	position:fixed;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	background-color : rgba(248,248,248,0.73);
 	height: 70px;
 	margin: 0px;
+	background-color: no-repeat;
+
 }
 .menu{
 	display: flex;
@@ -41,7 +47,7 @@ body{
 	margin-right: 40px;
 	margin-left: 40px;
 	text-align: center;
-	border: 6px inset rgba(197,190,161,0.58);
+	border: 4px inset rgba(197,190,161,0.38);
 border-radius: 25px;
 }
 .elem_menu:hover{
@@ -61,8 +67,8 @@ width: 180px;
 .entete h1{
 	height: 30px;
 	text-align: center;
-	
-	border: 6px inset #C5BEA1;
+	margin: 0px;
+	border: 4px inset rgba(197,190,161,0.38);
 	border-radius: 25px;
 	padding-left:  25px;
 	padding-right: 25px;
@@ -74,8 +80,8 @@ width: 180px;
 	width: 950px;
 	height: auto;
 
-	background-color:rgba(197,190,161,0.45); 
-	opacity: 0.8;
+	background-color : rgba(248,248,248,0.53);
+
 }
 .contenu h1{
 	height: 0px;
