@@ -58,7 +58,7 @@ color: #5e647d;
 height: 38px;
 width: 180px;
 }
-h1{
+.entete h1{
 	height: 30px;
 	text-align: center;
 	
@@ -66,4 +66,26 @@ h1{
 	border-radius: 25px;
 	padding-left:  25px;
 	padding-right: 25px;
+}
+.contenu{
+	position: center;
+	 margin: 110px 289px 15px;
+	border: solid 3px red;
+	width: 950px;
+	height: auto;
+
+	background-color:rgba(197,190,161,0.45); 
+	opacity: 0.8;
+}
+.contenu h1{
+	height: 0px;
+	text-align: center;
+	font-size: 52px;
+}
+p{
+	border: solid 3px green;
+	height: auto;
+	text-align: center;
+	margin:100px 0px 10px;
+	font-size: 20px;
 }
