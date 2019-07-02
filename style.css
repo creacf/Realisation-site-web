@@ -9,7 +9,6 @@ body{
 	background-size: cover;
 	background-attachment: scroll; /*fiver l'img de fond*/
 }
-
 .entete{
 	position:fixed;
 	left: 0px;
@@ -19,7 +18,6 @@ body{
 	height: 70px;
 	margin: 0px;
 	background-color: no-repeat;
-
 }
 .menu{
 	display: flex;
@@ -28,18 +26,15 @@ body{
 	padding: 19px;
 	padding-top: 0px;
 	height: 
-
 }
 .navbar{
 	align-items: center;
 	display: flex;
-	align-items: stretch;
+	align-items: stretch;/*Les éléments flexibles sont étirés afin que la taille de la boîte de marge sur l'axe en bloc est la même que celle de la ligne sur laquelle l'élément se trouve, tout en respectant les contraintes de hauteur et de largeur.*/
 	justify-content: space-between;
 	height: 64px;
-	max-width: 1500x;
+	max-width: 1500px;
 	padding: 10px;
-
-
 }
 .elem_menu{
 	width: 120px;
@@ -48,7 +43,7 @@ body{
 	margin-left: 40px;
 	text-align: center;
 	border: 4px inset rgba(197,190,161,0.38);
-border-radius: 25px;
+	border-radius: 25px;
 }
 .elem_menu:hover{
 	background-color : rgba(197,190,161,0.75);
@@ -58,11 +53,11 @@ border-radius: 25px;
 	color: white;
 	font-size: 20px;
 }
-a{
-text-decoration: none;
-color: #5e647d;
-height: 38px;
-width: 180px;
+.menu a{
+	text-decoration: none;
+	color: #5e647d;
+	height: 38px;
+	width: 180px;
 }
 .entete h1{
 	height: 30px;
@@ -75,23 +70,58 @@ width: 180px;
 }
 .contenu{
 	position: center;
-	 margin: 110px 289px 15px;
-	border: solid 3px red;
+	margin: 204px 289px 15px;
 	width: 950px;
 	height: auto;
-
 	background-color : rgba(248,248,248,0.53);
-
 }
 .contenu h1{
+	margin: 0px;
 	height: 0px;
 	text-align: center;
 	font-size: 52px;
 }
-p{
-	border: solid 3px green;
+.contenu p{
 	height: auto;
 	text-align: center;
-	margin:100px 0px 10px;
+	margin:100px 0px 0px;
 	font-size: 20px;
+}
+.button{
+	align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 450px;
+	height:70px; 
+	margin-top: 40px;
+	margin-left: 240px;
+	margin-right: 240px;
+}
+.button .elem_menu{
+	width: 200px;
+	height: 25px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
+	border: 4px inset rgba(197,190,161,0.38);
+	border-radius: 25px;
+}
+.button .elem_menu:hover{
+	background-color : rgba(197,190,161,0.75);
+	height: 25px;
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	font-size: 16px;
+}
+
+.button a{
+	text-decoration: none;/*pour enlever le trait*/
+	list-style-type: none; /*pour enlever le point devant*/
+	margin-right: 20px;
+	margin-left: 20px;	
+	color: #5e647d;
+	height: 38px;
+	width: 180px;
 }
