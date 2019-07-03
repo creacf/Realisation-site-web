@@ -7,7 +7,7 @@ body{
 	background-image: url(file:///C:/Users/Creacf%2065/Desktop/grandma_recipes/Realisation-site-web/img/une%20drome.jpg); 
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: scroll; /*fiver l'img de fond*/
+	background-attachment: scroll; /*fixer l'img de fond*/
 }
 .entete{
 	position:fixed;
@@ -189,16 +189,17 @@ h3{
 	 
 }
 .footer button{
-	width: 80px;
+	width: 110px;
 	height: 70px;
 	border: 4px inset rgba(197,190,161,0.38);
 	border-radius: 25px;
 	margin-right: 240px;
 	margin-left: 100px;
 }	
-.boutton a{
+button a{
 	text-decoration: none;/*pour enlever le trait*/
-	list-style-type: none;
+	list-style-type: none; /*pour enlever le point devant*/
+	color: #5e647d;
 }
 .footer button:hover{
 	background-color : rgba(197,190,161,0.75);
@@ -208,4 +209,7 @@ h3{
 	margin-left: 100px;
 	color: white;
 	font-size: 20px;
+	margin-top: 10px;
+	color: white;
+	font-size: 16px;
 }
