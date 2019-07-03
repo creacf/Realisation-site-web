@@ -147,3 +147,18 @@ body{
     margin: 20px 10px 20px;
 	max-height: 50px;
 }  
+.première{
+	display: flex;
+	align-content: center;
+}
+.Text{
+	max-width: 150px;
+	display: flex;
+	flex-wrap: wrap; /* pour mettre en deux lignes*/
+	justify-content:center;
+	
+}
+.première img{
+	display: flex;
+	align-content: center;
+}
