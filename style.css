@@ -31,7 +31,7 @@ body{
 	align-items: center;
 	display: flex;
 	align-items: stretch;/*Les éléments flexibles sont étirés afin que la taille de la boîte de marge sur l'axe en bloc est la même que celle de la ligne sur laquelle l'élément se trouve, tout en respectant les contraintes de hauteur et de largeur.*/
-	justify-content: space-between;
+	justify-content: center;
 	height: 64px;
 	max-width: 1500px;
 	padding: 10px;
@@ -90,8 +90,8 @@ body{
 .button{
 	align-items: center;
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	align-items: baseline;
+	justify-content: space-between;
 	width: 450px;
 	height:70px; 
 	margin-top: 40px;
