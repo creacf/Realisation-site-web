@@ -200,14 +200,12 @@ h3{
 	text-decoration: none;/*pour enlever le trait*/
 	list-style-type: none;
 }
-		
-	
-}
-.boutton a:hover{
+.footer button:hover{
 	background-color : rgba(197,190,161,0.75);
-	height: 25px;
+	height: 70px;
 	text-align: center;
-	margin-top: 0px;
+	margin-right: 240px;
+	margin-left: 100px;
 	color: white;
 	font-size: 20px;
 }
