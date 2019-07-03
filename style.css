@@ -31,7 +31,7 @@ body{
 	align-items: center;
 	display: flex;
 	align-items: stretch;/*Les éléments flexibles sont étirés afin que la taille de la boîte de marge sur l'axe en bloc est la même que celle de la ligne sur laquelle l'élément se trouve, tout en respectant les contraintes de hauteur et de largeur.*/
-	justify-content: center;
+	justify-content: space-between;
 	height: 64px;
 	max-width: 1500px;
 	padding: 10px;
@@ -88,7 +88,7 @@ body{
 	font-size: 20px;
 }
 .button{
-	align-items: center;
+	align-items: ;
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
@@ -101,7 +101,7 @@ body{
 .button .elem_menu{
 	width: 200px;
 	height: 25px;
-	margin-right: 40px;
+	margin-right: 0px;
 	margin-left: 40px;
 	text-align: center;
 	border: 4px inset rgba(197,190,161,0.38);
@@ -124,4 +124,9 @@ body{
 	color: #5e647d;
 	height: 38px;
 	width: 180px;
+}
+.duo_elem{
+	display: flex;
+	align-items: center;
+	width: 462px;
 }
