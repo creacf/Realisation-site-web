@@ -14,7 +14,7 @@ body{
 	left: 0px;
 	right: 0px;
 	top: 0px;
-	background-color : rgba(248,248,248,0.73);
+	background-color : rgba(248,248,248,0.83);
 	height: 70px;
 	margin: 0px;
 	background-color: no-repeat;
@@ -80,6 +80,7 @@ body{
 	height: 0px;
 	text-align: center;
 	font-size: 52px;
+	background-color: 
 }
 .contenu p{
 	height: auto;
@@ -136,7 +137,7 @@ body{
 	align-content: center;
 	flex-wrap: wrap; /* pour mettre en deux lignes*/
 	justify-content:center;/* tout center <p> et <div>*/
-	margin: 204px 289px 15px;
+	margin: 204px 284px 15px;
 	height: auto;
 	background-color : rgba(248,248,248,0.53);
 }
@@ -146,22 +147,35 @@ body{
 	width: auto;
     margin: 20px 10px 20px;
 	max-height: 50px;
-}  
+} 
+.Icones p{ 
+	width: 520px;
+
+ } 
 .première{
 	display: flex;
 	align-content: center;
+	margin-top: 204px ;
+	width: 100%;
+	height: auto;
+	background-color : rgba(248,248,248,0.53);
 }
 .Text{
-	max-width: 350px;
+	max-width: 301px;
+	padding: 9px;
 	display: flex;
 	flex-wrap: wrap; /* pour mettre en deux lignes*/
 	justify-content:center;
-	margin: 25px;
+	margin-left: 284px;
+	border: solid 2px rgba(197,190,161,0.38);
 }
 .première img{
 	display: flex;
-	align-content: center;
+	justify-content: space-between;
 }
 h3{
 	margin-top:  70px;
+}
+.Tableur img{
+	width: 601px;
 }
