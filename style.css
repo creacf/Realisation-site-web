@@ -152,13 +152,16 @@ body{
 	align-content: center;
 }
 .Text{
-	max-width: 150px;
+	max-width: 350px;
 	display: flex;
 	flex-wrap: wrap; /* pour mettre en deux lignes*/
 	justify-content:center;
-	
+	margin: 25px;
 }
 .première img{
 	display: flex;
 	align-content: center;
+}
+h3{
+	margin-top:  70px;
 }
