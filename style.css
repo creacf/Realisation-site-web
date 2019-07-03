@@ -155,7 +155,8 @@ body{
 .première{
 	display: flex;
 	align-content: center;
-	margin-top: 204px ;
+	margin-top: 204px;
+	margin-bottom: 204px;
 	width: 100%;
 	height: auto;
 	background-color : rgba(248,248,248,0.53);
@@ -178,4 +179,35 @@ h3{
 }
 .Tableur img{
 	width: 601px;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	background-color : rgba(248,248,248,0.83);
+	background-color: no-repeat;
+	 
+}
+.footer button{
+	width: 80px;
+	height: 70px;
+	border: 4px inset rgba(197,190,161,0.38);
+	border-radius: 25px;
+	margin-right: 240px;
+	margin-left: 100px;
+}	
+.boutton a{
+	text-decoration: none;/*pour enlever le trait*/
+	list-style-type: none;
+}
+		
+	
+}
+.boutton a:hover{
+	background-color : rgba(197,190,161,0.75);
+	height: 25px;
+	text-align: center;
+	margin-top: 0px;
+	color: white;
+	font-size: 20px;
 }
