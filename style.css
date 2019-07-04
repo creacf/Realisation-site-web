@@ -181,41 +181,48 @@ h3{
 	width: 601px;
 }
 .footer{
-	display: flex;
-	justify-content: space-between;
-	text-align: center;
+	position: center;
+	height: 80px;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	margin: 0px;
 	background-color : rgba(248,248,248,0.83);
 	background-color: no-repeat;
-	 height: 90px;
-	 max-width: 1500px;
-	 align-items: ;
 }
-.footer button{
+.info{
 	display: flex;
-	justify-content: center;
-	width: 190px;
-	height: 50px;
+	align-items: stretch;/*Les éléments flexibles sont étirés afin que la taille de la boîte de marge sur l'axe en bloc est la même que celle de la ligne sur laquelle l'élément se trouve, tout en respectant les contraintes de hauteur et de largeur.*/
+	justify-content: space-between;
+	
+	list-style-type: none; /*pour enlever le point devant*/
+	height: 64px;
+	max-width: 1500px;
+	padding: 10px 284px 10px 284px;
+}
+.info .elem_menu{
+	width: 120px;
+	height: 25px;
+	margin-right: 40px;
+	margin-left: 40px;
+	text-align: center;
 	border: 4px inset rgba(197,190,161,0.38);
 	border-radius: 25px;
-	margin: 20px 240px 0px 100px;
-	padding: 9px 9px 5px 9px;
-}	
-.footer button:hover{
+}
+.info .elem_menu:hover{
 	background-color : rgba(197,190,161,0.75);
-	margin-top: 10px;
+	height: 25px;
+	text-align: center;
 	color: white;
+	margin-top: 0px;
+	font-size: 20px;
 }
-button a{
+.info a{
 	text-decoration: none;/*pour enlever le trait*/
-	list-style-type: none; /*pour enlever le point devant*/
 	color: #5e647d;
-	align-items: center;
+	height: 38px;
+	width: 180px;
 }
-
-
-
-
-
 
 
 
