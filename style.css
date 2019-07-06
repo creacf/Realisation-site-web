@@ -4,12 +4,11 @@ body{
     color: #5e647d;/* color police*/
     min-width: 900px;
     margin: 0px;
-	background-image: url(file:///C:/Users/Creacf%2065/Desktop/grandma_recipes/Realisation-site-web/img/une%20drome.jpg); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: scroll; /*fixer l'img de fond*/
 }
-.entete{
+.entete{   
 	position:fixed;
 	left: 0px;
 	right: 0px;
@@ -149,7 +148,7 @@ body{
 	width: 520px;
 
  } 
-.première{
+#première{
 	display: flex;
 	align-content: center;
 	margin-top: 204px;
@@ -158,7 +157,7 @@ body{
 	height: auto;
 	background-color : rgba(248,248,248,0.53);
 }
-.Text{
+#Text{
 	max-width: 301px;
 	padding: 9px;
 	display: flex;
@@ -169,7 +168,7 @@ body{
 	border-radius: 25px;
 	background-color : rgba(248,248,248,0.83);
 }
-.première img{
+#première img{
 	display: flex;
 	justify-content: space-between;
 	border: 4px inset rgba(197,190,161,0.38);
